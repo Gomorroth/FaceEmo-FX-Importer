@@ -14,7 +14,7 @@ using System.IO;
 public class FaceEmoFXImporter : EditorWindow
 {
     [MenuItem("FaceEmo/Import Expression Patterns from FX layer")]
-    public static void ShowWindow() => CreateWindow<FaceEmoImporter>("FaceEmo FX Importer");
+    public static void ShowWindow() => CreateWindow<FaceEmoFXImporter>("FaceEmo FX Importer");
 
     private void OnGUI()
     {
